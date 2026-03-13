@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cinesophia Ticket Application</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div id="ticketapp">
+
+<h1>Cinesophia Ticket Application</h1>
+
+<h2>Ticket Details</h2>
+<label>Full Name</label><br>
+<input type="text" id="full_name"><br>
+
+<h2>Ticket Selection</h2>
+<label>Quantity (₱200 Each)</label><br>
+<input type="number" id="price" value="0" min="0" oninput="getTotal()"><br>
+
+<h2>Payment Details</h2>
+
+<label>Sub Total</label><br>
+<input type="text" id="subtotal" readonly><br>
+
+<label>Admin Fee</label><br>
+<input type="text" id="adminfee" value="50" readonly><br>
+
+<label>Total</label><br>
+<input type="text" id="total" readonly><br><br>
+
+<button onclick="completeRegistration()">Complete Registration</button>
+<button onclick="location.reload()">Refresh</button>
+
+</div>
+
+<script src="main.js"></script>
+
+</body>
+</html>
