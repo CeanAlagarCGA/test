@@ -16,5 +16,5 @@ function completeRegistration() {
 
     let name = document.getElementById("full_name").value;
 
-    alert("Registration Complete! Thank you, " + name);
+    alert("thank you" + name + "SEE YOU THERE");
 }
