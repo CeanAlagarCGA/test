@@ -17,4 +17,8 @@ function completeRegistration() {
     let name = document.getElementById("full_name").value;
 
     alert("thank you" + name + "SEE YOU THERE");
+    
+    location.reload();
+    
 }
+
